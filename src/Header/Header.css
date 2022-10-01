@@ -1,0 +1,125 @@
+.container {
+    width: 1200px;
+
+    margin: auto;
+}
+
+.btn-more {
+    width: 120px;
+    height: 30px;
+    border: white solid 1px;
+    background: none;
+    color: white;
+}
+
+.main {
+    top: 0;
+    width: 1600px;
+    height: 600px;
+    background: url(../images/Mainbg.jpg);
+    margin: auto;
+}
+.menu{
+    
+}
+.menu ul {
+    padding-top: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1200px;
+    margin: auto;
+    
+}
+
+li {
+    padding: 15px;
+    list-style-type: none;
+
+    text-decoration: none;
+
+}
+
+li a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    bottom: 0;
+}
+
+.header-descr {
+    display: block;
+    margin: auto;
+    padding-top: 120px;
+    padding: 20px;
+    color: aliceblue;
+    
+}
+.header-descr h1{
+    margin-top: 120px;
+}
+h1,
+h2,
+h3 {
+    
+    padding: 20px;
+
+}
+
+.about {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.about p {
+    margin-top: 20px;
+}
+
+
+.our-best {
+    background: url(../images/ourbg.png);
+    height: 400px;
+}
+
+.our-cards {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.our-card {
+    width: 250px;
+    padding: 20px;
+}
+.footer{
+    background-color: aliceblue;
+}
+.footer ul {
+    display: flex;
+    height: 70px;
+    background-color: aliceblue;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.footer ul {
+    display: flex;
+    height: 100px;
+    color: black;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.footer a {
+    bottom: 0;
+    color: black;
+
+}
